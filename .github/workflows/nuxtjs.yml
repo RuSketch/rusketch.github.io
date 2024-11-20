@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: "20"
       - run: pnpm i
-      - run: NUXT_APP_BASE_URL=/website/ pnpm build
+      - run: NUXT_APP_BASE_URL=/ pnpm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
