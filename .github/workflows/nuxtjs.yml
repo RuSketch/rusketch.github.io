@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: "20"
       - run: pnpm i
-      - run: pnpm dlx nuxt build --preset github_pages
+      - run: NUXT_APP_BASE_URL=/website/ pnpm dlx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
