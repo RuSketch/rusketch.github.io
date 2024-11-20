@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/seo',
   ],
+  ssr: false,
   site: {
     url: "http://localhost:3000",
     name: "RuSketch",
