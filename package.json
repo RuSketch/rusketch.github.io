@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build && pnpm compress",
+    "build": "nuxt build --preset github_pages && pnpm compress",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
