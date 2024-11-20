@@ -8,6 +8,10 @@
 // remove on server
 // defineOgImageComponent('LandingOg')
 useHead({
-  lang: "ru"
+  lang: "ru",
+  meta: [
+    { name: 'keywords', content: 'RUSketch, 3D-модели, маркетплейс, геймдев, анимация, архитектурная визуализация, фрилансеры, VFX, дизайн, Sketchfab аналог' },
+    { name: 'author', content: 'Команда RUSketch' }
+  ],
 })
 </script>

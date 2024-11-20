@@ -9,8 +9,8 @@ export default defineNuxtConfig({
   ssr: false,
   site: {
     url: "https://rusketch.github.io/website/",
-    name: "RuSketch",
-    description: "Российский маркетплейс 3D моделей",
+    name: "RUSketch — маркетплейс 3D-моделей для России и СНГ",
+    description: "RUSketch — первый российский маркетплейс 3D-моделей. Низкая комиссия, безопасность сделок, удобная оплата. Для геймдева, анимации и архитектурной визуализации.",
     defaultLocale: "ru",
   },
   tailwindcss: {
@@ -33,13 +33,13 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: {
       type: 'Organization',
-      name: 'RuSketch',
+      name: 'RUSketch',
       logo: '/logo.png',
       sameAs: [
         'https://github.com/RuSketch',
         'https://vk.com/RuSketch',
       ],
-      description: "Российский маркетплейс 3D моделей"
+      description: "Продавайте и покупайте качественные 3D-модели на RUSketch. Удобно, безопасно и с низкими комиссиями."
     }
   },
 
