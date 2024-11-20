@@ -13,6 +13,26 @@ export default defineNuxtConfig({
     description: "RUSketch — первый российский маркетплейс 3D-моделей. Низкая комиссия, безопасность сделок, удобная оплата. Для геймдева, анимации и архитектурной визуализации.",
     defaultLocale: "ru",
   },
+  app: {
+    head: {
+      meta: [
+        {
+          name: 'keywords',
+          content:
+            'RUSketch, 3D-модели, маркетплейс, геймдев, анимация, архитектурная визуализация, фрилансеры, VFX, дизайн, Sketchfab аналог',
+        },
+        { name: 'author', content: 'Команда RUSketch' },
+        { name: 'yandex-verification', content: '5cf4cb6a490ba370' }
+      ],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: '/favicon.png'
+        }
+      ],
+    },
+  },
   tailwindcss: {
     viewer: true,
     exposeConfig: true,
