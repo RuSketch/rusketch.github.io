@@ -5,7 +5,8 @@
 </template>
 
 <script lang="ts" setup>
-defineOgImageComponent('LandingOg')
+// remove on server
+// defineOgImageComponent('LandingOg')
 useHead({
   lang: "ru"
 })

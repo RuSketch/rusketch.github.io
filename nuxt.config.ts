@@ -41,5 +41,13 @@ export default defineNuxtConfig({
       ],
       description: "Российский маркетплейс 3D моделей"
     }
-  }
+  },
+
+  // remove on server 
+  ogImage: {
+    enabled: false,
+  },
+  robots: { 
+    robotsTxt: false
+  },
 })
