@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   ssr: false,
   site: {
-    url: "http://localhost:3000",
+    url: "https://rusketch.github.io/website/",
     name: "RuSketch",
     description: "Российский маркетплейс 3D моделей",
     defaultLocale: "ru",
