@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-defineOgImageComponent('LangingOg')
+defineOgImageComponent('LandingOg')
 useHead({
   lang: "ru"
 })
