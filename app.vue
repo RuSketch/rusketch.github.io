@@ -20,6 +20,7 @@ useHead({
         "RUSketch, 3D-модели, маркетплейс, геймдев, анимация, архитектурная визуализация, фрилансеры, VFX, дизайн, Sketchfab аналог",
     },
     { name: "author", content: "Команда RUSketch" },
+    { name: "yandex-verification", content: "5cf4cb6a490ba370" }
   ],
 });
 </script>
