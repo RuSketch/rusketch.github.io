@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/seo',
+    '@nuxt/image'
   ],
   ssr: false,
   site: {
@@ -40,7 +41,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/sitemap.xml', '/robots.txt']
+      routes: ['/', '/sitemap.xml']
     },
     compressPublicAssets: true,
   },
@@ -64,7 +65,6 @@ export default defineNuxtConfig({
   },
   
 
-  // remove on server 
   ogImage: {
     enabled: false,
   },

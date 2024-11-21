@@ -11,6 +11,7 @@
     "compress": "gzipper compress .output/public"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.1",
     "@nuxtjs/seo": "2.0.0-rc.23",
     "h3-compression": "^0.3.2",
     "nuxt": "^3.14.1592",
