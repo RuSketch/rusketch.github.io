@@ -2,9 +2,9 @@
   <main
     class="relative w-full bg-[#141621] flex items-center justify-center font-semibold text-xl text-white"
   >
-    <NuxtImg preload :quality="80" class="w-full select-none pointer-events-none" src="/background.png" alt="background" />
+    <img class="w-full select-none pointer-events-none" src="/background.png" alt="background">
     <NuxtLink class="absolute top-0 left-0" to="https://forms.yandex.ru/cloud/673f1cac505690d5be6baeb0/" target="_blank">
-      <NuxtImg loading="lazy" :quality="80" class="w-screen select-none pointer-events-none show" src="/content.png" alt="content" />
+      <img class="w-full select-none pointer-events-none show" src="/content.png" alt="content">
     </NuxtLink>
   </main>
 </template> 
