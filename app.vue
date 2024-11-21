@@ -4,8 +4,6 @@
   >
     Здесь будет лендинг проекта RuSketch
   </main>
-
-  <YaMetrika />
 </template> 
 
 <script lang="ts" setup>
