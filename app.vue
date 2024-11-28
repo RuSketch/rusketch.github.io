@@ -6,6 +6,16 @@
     <NuxtLink class="absolute top-0 left-0" to="https://forms.yandex.ru/cloud/673f1cac505690d5be6baeb0/" target="_blank">
       <img class="w-full select-none pointer-events-none show" src="/content.png" alt="content">
     </NuxtLink>
+    <div id="yandex_rtb_R-A-13105348-1"></div>
+    <script>
+      window.yaContextCb.push(() => {
+          Ya.Context.AdvManager.render({
+              "blockId": "R-A-13105348-1",
+              "renderTo": "yandex_rtb_R-A-13105348-1",
+              "type": "feed"
+          })
+      })
+    </script>
   </main>
 </template> 
 
